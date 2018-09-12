@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+}
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+nav{
+    background-color: green;
+}
+#nav-container{
+    width: 100%;
+    margin: 0 auto;
+}
+#inside-nav-container{
+    width: 960px;
+    margin: 0 auto;
+}
+#inside-nav-container-one{
+    float: left;
+    
+}
+#inside-nav-container img{
+  float: left;
+   width:80px;
+    margin: 0;
+    padding: 0;
+}
+#inside-nav-container h1{
+    margin:0;
+    padding: 18px 20px 0 80px;
+    font-size: 26px;
+font-family: 'Gamja Flower', cursive;
+color: yellow;
+}
+#inside-nav-container-two{
+    float: left;
+    width: 500px;
+    margin: 0 auto;
+     background-color: #195f01;
+}
+#inside-nav-container-two ul{
+    list-style: none;
+   
+}
+#inside-nav-container-two li{
+   float: left;
+    padding: 15px 15px 28px 10px;
+}
+#inside-nav-container-two li a{
+   padding: 0 27px;
+   font-size: 18px;
+    color: white
+}
+#inside-nav-container-three{
+    float: left;
+    display: block;
+    padding-top:32px;
+    font-size: 18px;
+}
+#inside-nav-container-three h4{display: inline; margin: 0;padding-left:25px; color: yellow;}
+.toggle{
+    width:100%; padding:10px 20px;text-align:right;box-sizing: border-box;font-size: 30px;
+     display: none;
+}
+
+/*                  Media Qurries  */
+@media only screen and (max-width:768px){
+    #inside-nav-container img{
+   width:70px;
+}
+#inside-nav-container h1{
+    padding: 18px 0 0 84px;
+    font-size: 24px;
+}
+    #inside-nav-container{
+    width: 100%;
+}
+    #inside-nav-container-two{
+        width: 100%;
+    }
+    #inside-nav-container-three{
+        display: none;
+    }
+    .toggle{
+    display: block;
+    padding-top: 22px;
+    
+}
+    ul{
+        width:100%;
+        display: none;
+    }
+    #inside-nav-container-two li{
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .active{
+        display: block;
+    }
+}

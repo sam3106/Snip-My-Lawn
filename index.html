@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Snip My Lawn</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="SnipMyLawn.css" />
+</head>
+<body>
+  <nav class="cf">
+    <div id="nav-container">
+         <div id="inside-nav-container">             
+           <div id="inside-nav-container-one">
+             <img  src="icon.png" />
+             <h1> Snip My Lawn</h1> 
+           </div>
+           <div class="toggle">
+              <i class="fas fa-bars menu"></i>
+           </div>
+          <div id="inside-nav-container-two">
+            <ul>
+              <li><a>Get A Quote</a></li>
+              <li><a>Services</a></li>
+              <li><a>Sign In</a></li>
+           </ul>
+          </div>
+          <div id="inside-nav-container-three">
+             <h4>456-885-9999</h4>
+          </div>
+        </div>
+    </div>
+  </nav>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script type="text/javascript">
+   $(document).ready(function(){
+    $('.toggle').click(function(){
+     $('ul').toggleClass('active');
+    })
+   })</script>
+ <script src="SnipMyLawn.js"></script>    
+</body>
+</html>
