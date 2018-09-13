@@ -9,6 +9,10 @@ body{
 .cf:after {
     clear: both;
 }
+img{
+    max-width: 100%;
+}
+/*                Nav                  */
 nav{
     background-color: green;
 }
@@ -67,6 +71,79 @@ color: yellow;
     width:100%; padding:10px 20px;text-align:right;box-sizing: border-box;font-size: 30px;
      display: none;
 }
+/*                  First Section        */
+.feature{
+    padding-bottom: 14px;
+    height: 60vh;
+    background: url("https://www.publicdomainpictures.net/pictures/20000/velka/grass-background.jpg");
+    background-position: center;
+    width:100%;
+}
+#feature-wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+#inside-feature-content{
+    width: 100%;
+}
+#inside-feature-content h1{
+    font-size:50px;
+    color: white;
+    font-family: 'FiraSansLight', sans-serif;
+    padding:0;
+    margin-bottom: 30px;
+}
+#feature-sub-headline{
+    width: 75%;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: gold;
+    margin-left: 0;
+    line-height: 29px;
+    padding: 34px 0 55px 0;
+}
+#quote h4{
+    margin-bottom: 0;
+    color: white;
+    font-size: 20px;
+}
+#quote > input:nth-child(2){
+    height:42px;
+    float: left;
+    color: white;
+}
+/*                  Second Section        */
+#feature-two-wrapper{
+    background: green;
+    width: 100%;
+    padding: 90px 0;
+}
+#inside-feature-two-wrapper{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.three-features{
+    width: 25%;
+    float: left;
+    margin-left: 55px;
+}
+
+.three-features img{
+       width: 110px;
+}
+.three-features h3{
+    color: gold;
+    float: right;
+    margin-top: 30px
+}
+#inside-feature-two-wrapper div:first-child{
+
+}
+
+
+
 
 /*                  Media Qurries  */
 @media only screen and (max-width:768px){
