@@ -74,7 +74,7 @@ color: yellow;
 /*                  First Section        */
 .feature{
     padding-bottom: 14px;
-    height: 60vh;
+    height: 65vh;
     background: url("https://www.publicdomainpictures.net/pictures/20000/velka/grass-background.jpg");
     background-position: center;
     width:100%;
@@ -117,7 +117,7 @@ color: yellow;
 #feature-two-wrapper{
     background: green;
     width: 100%;
-    padding: 90px 0;
+    padding: 66px 0;
 }
 #inside-feature-two-wrapper{
     width: 50%;
@@ -138,14 +138,128 @@ color: yellow;
     float: right;
     margin-top: 30px
 }
-#inside-feature-two-wrapper div:first-child{
+/*                  Thrid Section        */
+#service-section{
+    background-color: whitesmoke;
+}
+.service-wrapper{
+    width: 50%;
+    margin: 0 auto;
+    padding:50px 0;
+}
+.service-wrapper h2{
+    text-align: center;
+    color: green;
+    border-bottom: 2px solid gold;
+    
+}
+.service-wrapper p{
+    text-align: justify;
+    margin:  10px 40px 40px 40px;
+}
+.service-wrapper h4{
+    color: green;
+    margin: 0;
+}
+.service-ending{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.service-ending img{
+    max-width: 150px;
+}
+/*                Our Staff              */
+#staff-section{
+    background-color: green;
+    padding: 45px 0;
 
+}
+.staff-wrapper{
+    width: 50%;
+    margin: 0 auto;
+    padding: 65px 20px;
+    text-align: center;
+}
+.staff-wrapper h2{ color: white;}
+.staff-wrapper img{
+     width: 150px;
+     height: 150px;
+    border-radius: 50%;
+    background-color: gold;
+    
+}
+/*                 Reviews                 */
+#reviews-contact-section{
+    background: whitesmoke;
+}
+#reviews-wrapper{
+    padding: 50px 0 50px 0;
+
+}
+#reviews-contact-section h2{
+    text-align: center;
+    color: green;
+}
+#reviews-wrapper{
+    width: 50%;
+    margin: 0 auto;
+   
+}
+.feedback{
+    width: 33%;
+    margin: 0 auto;
+    float: left;
+    text-align: center
+}
+.feedback h4{
+    color: gold;
+    font-size: 22px;
+}
+.feedback img{
+    width: 150px;
+    height: 155px;
+}
+
+/*                 Contact us               */
+#contact-us-section{
+    background-image: url("grass.JPG");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+     border-radius: 5px;
+    padding: 40px 0;
+}
+.container input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.container input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
 }
 
 
 
-
-/*                  Media Qurries  */
+/*                  Media Qurries                */
 @media only screen and (max-width:768px){
     #inside-nav-container img{
    width:70px;
