@@ -1,0 +1,433 @@
+body{
+    margin: 0;
+}
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+/*                Nav                  */
+nav{
+    background-color: green;
+}
+#nav-container{
+    width: 100%;
+    margin: 0 auto;
+}
+#inside-nav-container{
+    width: 960px;
+    margin: 0 auto;
+}
+#inside-nav-container-one{
+    float: left;
+    
+}
+#inside-nav-container img{
+  float: left;
+   width:80px;
+    margin: 0;
+    padding: 0;
+}
+#inside-nav-container h1{
+    margin:0;
+    padding: 18px 20px 0 80px;
+    font-size: 26px;
+font-family: 'Gamja Flower', cursive;
+color: yellow;
+}
+#inside-nav-container-two{
+    float: left;
+    width: 500px;
+    margin: 0 auto;
+     background-color: #195f01;
+}
+#inside-nav-container-two ul{
+    list-style: none;
+    padding: 0;
+   
+}
+#inside-nav-container-two li{
+   float: left;
+    padding: 15px 0 28px 0;
+}
+#inside-nav-container-two li a{
+   padding: 0 27px;
+   font-size: 1.125em;
+    color: white
+}
+#inside-nav-container-three{
+    float: left;
+    display: block;
+    padding-top:32px;
+    font-size: 1.125em;
+}
+#inside-nav-container-three h4{display: inline; margin: 0;padding-left:25px; color: yellow;}
+.toggle{
+    width:100%; padding:10px 20px;text-align:right;box-sizing: border-box;font-size: 1.875em;
+     display: none;
+}
+/*                  First Section        */
+.feature{
+    padding-bottom: 14px;
+    height: 84vh;
+    background: url("https://www.publicdomainpictures.net/pictures/20000/velka/grass-background.jpg");
+    background-position: center;
+    width:100%;
+}
+#feature-wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+#inside-feature-content{
+    width: 100%;
+}
+#inside-feature-content h1{
+    font-size:3.125em;
+    color: white;
+    font-family: 'FiraSansLight', sans-serif;
+    padding:0;
+    margin-bottom: 30px;
+}
+#feature-sub-headline{
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: gold;
+    margin-left: 0;
+    line-height: 29px;
+    padding: 34px 0 55px 0;
+}
+#quote h4{
+    margin-bottom: 0;
+    color: white;
+    font-size: 1.25em;
+}
+#first-section-form input:first-child{
+    height:42px;
+    float: left;
+    color: black;
+}
+#first-section-form input:last-child{
+    float: left;
+}
+/*                  Second Section        */
+#feature-two-wrapper{
+    background: green;
+    width: 100%;
+    padding: 66px 0;
+}
+#inside-feature-two-wrapper{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.three-features{
+    width: 25%;
+    float: left;
+    margin-left: 3.4em;
+}
+.three-features:first-child{
+    margin-left: 0;
+}
+
+.three-features img{
+       width: 6.8em;
+}
+.three-features h3{
+    color: gold;
+   
+    margin-top: 30px
+}
+/*                  Thrid Section        */
+#service-section{
+    background-color: whitesmoke;
+}
+.service-wrapper{
+    width: 50%;
+    margin: 0 auto;
+    padding:50px 0;
+}
+.service-wrapper h2{
+    text-align: center;
+    color: green;
+    border-bottom: 2px solid gold;
+    
+}
+.service-wrapper p{
+    text-align: justify;
+    margin:  10px 40px 40px 40px;
+}
+.service-wrapper h4{
+    color: green;
+    margin: 0;
+}
+.service-ending{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.service-ending img{
+    max-width: 150px;
+}
+/*                Our Staff              */
+#staff-section{
+    background-color: green;
+    padding: 45px 0;
+
+}
+.staff-wrapper{
+    width: 50%;
+    margin: 0 auto;
+    padding: 65px 0;
+    text-align: center;
+}
+.staff-wrapper h2{ color: white;}
+.staff-wrapper img{
+     width: 148px;
+     height: 150px;
+    border-radius: 50%;
+    background-color: gold;
+    
+}
+/*                 Reviews                 */
+#reviews-contact-section{
+    background: whitesmoke;
+}
+#reviews-wrapper{
+    padding: 50px 0 50px 0;
+
+}
+#reviews-contact-section h2{
+    text-align: center;
+    color: green;
+}
+#reviews-wrapper{
+    width: 50%;
+    margin: 0 auto;
+   
+}
+.feedback{
+    width: 30%;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+    
+}
+.feedback p{
+    text-align: justify;
+}
+.feedback:nth-child(-n+2){
+    margin-right: 20px;
+}
+.feedback h4{
+    color: gold;
+    font-size: 1.375em;
+}
+.feedback img{
+    width: 150px;
+    height: 155px;
+}
+
+/*                 Contact us               */
+#contact-us-section{
+    background-image: url("grass.JPG");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+     border-radius: 5px;
+    padding: 40px 0;
+}
+.container input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.container input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+/*                  Footer               */
+footer{
+    background-color: green;
+    padding: 20px 0;
+}
+.footer-wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-wrapper h4{
+    margin: 0; 
+    display: inline-block;
+    color: white;
+}
+.footer-wrapper span{
+        float: right;
+        color: white;
+    
+    }
+/*                  Media Qurries                */
+@media only screen and (max-width:1200px){
+    #feature-sub-headline{
+        width:100%;
+    }  
+    .feature,#feature-two-wrapper,.service-wrapper{
+        font-size: 15px;
+    }
+    
+}
+@media only screen and (max-width:1024px){
+    .feature,.service-wrapper{
+        font-size: 14px;
+    }.feature{
+   
+    height: 89vh;
+    }
+}
+@media only screen and (max-width:920px){
+    inside-nav-container{width: 100%;}
+    #inside-nav-container-three{display: none;}
+    #inside-nav-container-two{width: 438px;}    
+    .staff-wrapper img{
+        width: 122px;
+        height: 125px;
+    }.feedback:nth-child(-n+2){
+    margin-right: 15px;
+}
+}
+@media only screen and (max-width:768px){
+    #inside-nav-container h1{
+    padding: 18px 0 0 84px;
+    font-size: 1.5em;
+}
+    #inside-nav-container{
+    width: 100%;
+}
+    #inside-nav-container-two{
+        width: 100%;
+    }
+    #inside-nav-container-three{
+        display: none;
+    }
+    .toggle{
+    display: block;
+    padding-top: 22px;
+}
+    ul{
+        width:100%;
+        display: none;
+    }
+    #inside-nav-container-two li{
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .active{
+        display: block;
+    }
+    #feature-wrapper{
+        width: 100%;
+        text-align: center;
+    }
+    #gold-line{
+        display: none;
+    }
+    #quote{
+        text-align: center;
+    }
+    #first-section-form{
+        display: inline-block;
+    }
+    #inside-nav-container img{
+   width:70px;
+}
+    #inside-feature-two-wrapper {
+        width: 100%;
+        margin: 0;
+    }
+    #feature-two-wrapper,.service-wrapper{
+font-size: 14px;
+    }
+    .three-features{
+        float: none;
+        text-align: center;
+        display: inline-block;
+    }
+    .service-wrapper{
+        width: 100%;
+    }
+        .staff-wrapper {
+        width: 100%;
+        padding: 40px  0;
+    }#reviews-wrapper{
+        width: 100%;
+    }.toggle {
+       padding-bottom:22px; 
+    }.feature{
+   
+    height: 86vh;
+    }
+}
+@media only screen and (max-width:480px){
+        #feature-two-wrapper,.service-wrapper,#reviews-wrapper{
+font-size: 14px;
+    },#feature-two-wrapper,.service-wrapper{
+font-size: 13px;
+    }
+    .three-features{
+        margin-left: 25px
+    }
+    #feature-two-wrapper{
+font-size: 12px;
+    }
+    .service-wrapper p:nth-child(n+7),.service-wrapper h4:nth-child(n+7){
+        display: none;
+    }.service-ending img{
+        width: 105px;
+        height: 105px;
+    }
+    .staff-wrapper img{
+        width: 105px;
+        height: 105px;
+    }.feedback p {
+        font-size: 14px;
+    }.footer-wrapper span{
+        float: none;
+        padding-top:20px;
+        display: block;
+    }.footer-wrapper{
+        text-align: center;
+    }#inside-nav-container img{
+        width: 65px;
+    }.feature{
+    height: 80vh;
+    }.footer-wrapper span {
+    float: none;
+    padding-top: 20px;
+    display: block;
+}
+}
