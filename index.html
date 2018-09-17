@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,9 +45,9 @@
     </div>
     <div id="quote" class="cf">
         <h4>Get a two minute quote</h4>
-        <form id="first-section-form" class="cf">
-        <input type="text" name="zip" placeholder="Enter your zip code" />
-        <input type="image" src="https://cdn.lawnlove.com/images/button_go.png" />
+        <form action="zipCode.php" id="first-section-form" class="cf" method="POST">
+        <input type="text" name="zip" minlength="5"  pattern="[0-9]{5}"  maxlength="5" placeholder="Enter your zip code" />
+        <input value="submit" type="image" src="https://cdn.lawnlove.com/images/button_go.png" />
         </form>
     </div>
    </div>
@@ -105,35 +106,39 @@
   <div class="staff-wrapper">
      <h2>World Class Staffing</h2>
      <p style="color: white;">Whether it's via chat, email, or over the phone, our team is always available to help.</p>
+     <div class="staff">
       <img src="Denzel.png"/>
       <img src="Topanga.png"/>
       <img src="obama.png"/>
+      </div>
+      <div class="staff">
       <img src="tony.png" />
       <img src="trump.png" />
       <img src="oprah.png" />
+      </div>
   </div>
   </section>
-<!--                Reviews                   -->
+<!--                Feedback/Review                   -->
   <section id="reviews-contact-section" class="cf">
    <h2>Feedback</h2>
     <div id="reviews-wrapper" class="cf">
     <div class="feedback">
      <img src="superman.png" />
-     <h4>Clark Kent</h4>
+     <h4>Clark<br> Kent</h4>
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at egestas tortor. Vivamus euismod, nunc id placerat iaculis, ligula lectus gravida libero, et dictum purus est sit amet ex. Nulla ut venenatis ligula. Lorem ipsum dolor sit amet, consectetur adipiscing.
 
 </p>
      </div>
      <div class="feedback">
      <img src="tiff.png" />
-     <h4>Tiffany Haddish</h4>
+     <h4>Tiffany<br> Haddish</h4>
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at egestas tortor. Vivamus euismod, nunc id placerat iaculis, ligula lectus gravida libero, et dictum purus est sit amet ex. Nulla ut venenatis ligula. Lorem ipsum dolor sit amet, consectetur adipiscing.
 
 </p>
      </div>
         <div class="feedback">
      <img src="vw.png" />
-     <h4>Serena Williams</h4>
+     <h4>Serena<br>Williams</h4>
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at egestas tortor. Vivamus euismod, nunc id placerat iaculis, ligula lectus gravida libero, et dictum purus est sit amet ex. Nulla ut venenatis ligula. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
      </div>
      <div>
@@ -144,9 +149,9 @@
     <section id="contact-us-section" class="cf">
     <h2 style="color: gold; text-align: center;">Contact Us</h2>
     <div class="container">
-   <form action="action_page.php">
+   <form action="thankYou.php" method="post">
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <input type="text" id="fname" name="name" placeholder="Your name..">
 
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
@@ -159,10 +164,10 @@
     </select>
 
     <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <textarea id="subject" name="subject"  minlength="5" placeholder="Write something.." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
-
+  
   </form>
 </div>
 </section>
@@ -171,7 +176,7 @@
 <footer class="cf">
     <div class="footer-wrapper" >
        <h4>Powered By Teron Sampson</h4>
-        <span style="float: right;color: white;">Privacy Statement</span>
+        <span>Privacy Statement</span>
     </div>
 </footer>
 <!--                Scripts                    -->
@@ -179,12 +184,6 @@
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
-<script type="text/javascript">
-   $(document).ready(function(){
-    $('.toggle').click(function(){
-     $('ul').toggleClass('active');
-    })
-   })</script>
 </body>
  <script src="SnipMyLawn.js"></script> 
 </html>
